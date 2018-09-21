@@ -1,0 +1,659 @@
+.buttonfont 
+{ 
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-weight: bold; text-align: top }
+	a:link { color: #000000; text-decoration: none; }
+	a:visited { text-decoration: none; color: #000000; }
+	a:hover { text-decoration: none; color: #000000; }
+	a:active { text-decoration: none; color: #000000; 
+}
+.buttonfont1 
+{ 
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9px; font-weight: bold; text-align: center }
+	a:link { color: #000000; text-decoration: none; }
+	a:visited { text-decoration: none; color: #000000; }
+	a:hover { text-decoration: none; color: #000000; }
+	a:active { text-decoration: none; color: #000000; 
+}
+.Button {
+	MARGIN: 0px;
+	WIDTH: 90px;
+	COLOR: white;
+	HEIGHT: 25px;
+	BACKGROUND-COLOR: #0099ff;
+	font: bold 10pt Arial, helvetica, "MS Sans Serif";
+	border: 1px solid #000000;
+}
+
+.error { color:#FF0000; }
+.hdrTitle { width:80%;font-weight:bold;font-size:12pt;float:left;background-color:#d6dcfe;line-height:22px; }
+.hdrTitle img { margin:0 0 0 0; }
+.lierrindent { margin:0 0 0 0; }
+.lftln { width:0;float:left; }
+
+.ff_label_center
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: Arial, helvetica, MS Sans Serif;
+    TEXT-ALIGN: center
+}
+.div
+{
+	overflow:auto;
+}
+/*Deepthi : added ff_status_msg and ff_error_msg on date 24-07-2007 */
+
+.ff_status_msg
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: Green;
+    FONT-FAMILY: Arial, 'MS Sans Serif';
+    TEXT-ALIGN: left
+}
+.ff_error_msg
+{
+	COLOR: #000000;
+	TEXT-ALIGN: left;
+	font: normal 10pt Arial, 'MS Sans Serif';
+}
+
+.ff_label_left
+{
+	FONT-WEIGHT: bold;
+	FONT-SIZE:10pt;
+	COLOR: black;
+	FONT-FAMILY: Arial, 'MS Sans Serif';
+	TEXT-ALIGN: left;
+	padding-left:5px;
+
+}
+.ff_labelman_left
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    COLOR: red;
+    FONT-FAMILY: Arial, 'MS Sans Serif';
+    TEXT-ALIGN: left
+}
+.ff_label_right
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: arial, helvetica, "MS Sans Serif";
+    TEXT-ALIGN: right
+}
+.ff_label_normal
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: Arial, helvetica,"MS Sans Serif";
+    padding-left:5px;
+ }
+  .ff_label_normal_right
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: arial, helvetica, "MS Sans Serif";
+    TEXT-ALIGN: right;
+    height:20px;
+ }
+ .ff_label_normal_center
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: arial, helvetica, "MS Sans Serif";
+    TEXT-ALIGN: center
+ }
+  .ff_label_normal_left
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: arial, helvetica, "MS Sans Serif";
+    TEXT-ALIGN: left
+ }
+ 
+    
+.ff_display_center
+{
+    BORDER-RIGHT: 1px;
+    BORDER-TOP: 1px;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: 1px;
+    COLOR: black;
+    BORDER-BOTTOM: 1px;
+    FONT-FAMILY: arial, helvetica, "MS Sans Serif";
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: center;
+    
+}
+
+.ff_display_center_opaque
+{
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: 0px;
+    COLOR: black;
+    BORDER-BOTTOM: 0px;
+    FONT-FAMILY: arial, helvetica, "MS Sans Serif";    
+    BACKGROUND-COLOR: None;
+    TEXT-ALIGN: center;        
+}
+
+.ff_display_left
+{
+    BORDER-RIGHT: 1px;
+    BORDER-TOP: 1px;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: 1px;
+    COLOR: black;
+    BORDER-BOTTOM: 1px;
+    FONT-FAMILY: Arial, helvetica, 'MS Sans Serif';
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: left
+}
+.ff_display_right
+{
+    BORDER-RIGHT: 1px;
+    BORDER-TOP: 1px;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: 1px;
+    COLOR: black;
+    BORDER-BOTTOM: 1px;
+    FONT-FAMILY: arial, helvetica, "MS Sans Serif";
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: right;
+    
+}
+.TableHeaderRow
+{
+    FONT-FAMILY: Arial, 'MS Sans Serif';
+	background-color:#336699;
+	color:white;
+	font-weight:bold;
+    FONT-SIZE: 10pt;
+}
+.TableData
+{
+    FONT-FAMILY: Arial, 'MS Sans Serif';
+	font-weight:normal;
+    FONT-SIZE: 10pt;
+}
+.myLink
+{
+	background-color:#526ba5;
+	border:none;
+}
+.SearchTable
+{
+	font-Family:Verdana,Arial,Helvetica;
+	background-color:white;
+	color:black;
+	border-style:none;
+	width:100%;
+}
+.tab_row_heading
+{
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 9pt;
+	COLOR: black;
+	FONT-FAMILY: Arial, 'MS Sans Serif';
+	BACKGROUND-COLOR: #cccccc;
+	TEXT-ALIGN: center;
+	FONT-FAMILY: arial, helvetica,"MS Sans Serif"
+}
+
+.tab_row_agri_heading
+{
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12pt;
+	COLOR: white;
+	FONT-FAMILY: Arial, 'MS Sans Serif';
+	BACKGROUND-COLOR: #0579c2;
+	TEXT-ALIGN: center;
+	FONT-FAMILY: arial, helvetica,"MS Sans Serif"
+}
+.tab_row_selected
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #ffffcc;
+    TEXT-ALIGN: center;
+    FONT-FAMILY: arial, helvetica,"MS Sans Serif"
+}
+.tab_row_highlighted
+{
+    BORDER-RIGHT: #ffffff 1px;
+    BORDER-TOP: #ffffff 1px;
+    BORDER-LEFT: #ffffff 1px;
+    BORDER-BOTTOM: #ffffff 1px;
+    BACKGROUND-COLOR: #99ccff;
+    TEXT-ALIGN: center
+}
+.tab_row_greenBar
+{
+	COLOR: black;
+	BACKGROUND-COLOR: #e4ebf3;
+	font: normal 12pt Arial, 'MS Sans Serif';
+	display: inline-block;
+	border: 1px solid #0099FF;
+}
+.tab_display_center
+{
+    BORDER-RIGHT: 1px;
+    BORDER-TOP: 1px;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: 1px;
+    COLOR: #000000;
+    BORDER-BOTTOM: 1px;
+    FONT-FAMILY: arial, helvetica,"MS Sans Serif";
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: center;
+    
+}
+.tab_display_left
+{
+    BORDER-RIGHT: 1px;
+    BORDER-TOP: 1px;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: 1px;
+    COLOR: #000000;
+    BORDER-BOTTOM: 1px;
+    FONT-FAMILY: arial, helvetica,"MS Sans Serif";
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: left;
+    
+}
+.tab_display_right
+{
+    BORDER-RIGHT: 1px;
+    BORDER-TOP: 1px;
+    FONT-SIZE: 10pt;
+    BORDER-LEFT: 1px;
+    COLOR: #000000;
+    BORDER-BOTTOM: 1px;
+    FONT-FAMILY: arial, helvetica,"MS Sans Serif";
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: right;
+    
+}
+.tab_label_center
+{
+	BORDER-RIGHT: 1px;
+	BORDER-TOP: 1px;
+	FONT-SIZE: 10pt;
+	BORDER-LEFT: 1px;
+	COLOR: #ffffff;
+	BORDER-BOTTOM: 1px;
+	FONT-FAMILY: arial, helvetica,"MS Sans Serif";
+	BACKGROUND-COLOR: #0099ff;
+	TEXT-ALIGN: left;
+	FONT-WEIGHT: bold;
+	text-indent: 5px;
+    
+}
+BODY
+{
+    POSITION: static;
+}
+body
+{
+    margin-top: 70px;
+}
+#LeftDiv
+{
+    LEFT: 0px;
+    OVERFLOW: auto;
+    POSITION: relative;
+    TOP: 0px;
+    HEIGHT: 100%
+}
+#MidDiv
+{
+    LEFT: 0px;
+    BACKGROUND-IMAGE: url(images/divider_line.gif);
+    MARGIN-BOTTOM: 5px;
+    OVERFLOW: auto;
+    WIDTH: 7px;
+    BOTTOM: 5px;
+    POSITION: relative;
+    TOP: 0px;
+    HEIGHT: 100%
+}
+#RightDiv
+{
+    RIGHT: 0px;
+    OVERFLOW: auto;
+    POSITION: relative;
+    TOP: 0px;
+    HEIGHT: 100%
+}
+#TopLeftDiv
+{
+    BORDER-RIGHT: groove;
+    BORDER-TOP: groove;
+    LEFT: 10px;
+    OVERFLOW: hidden;
+    BORDER-LEFT: groove;
+    BORDER-BOTTOM: groove;
+    POSITION: relative;
+    TOP: 0px;
+    HEIGHT: 30%
+}
+#BottomLeftDiv
+{
+    LEFT: 10px;
+    OVERFLOW: auto;
+    WIDTH: 97%;
+    BOTTOM: 0px;
+    POSITION: relative;
+    HEIGHT: 70%
+}
+#BottomRightDiv
+{
+    RIGHT: 0px;
+    OVERFLOW: auto;
+    WIDTH: 97%;
+    BOTTOM: 0px;
+    POSITION: relative;
+    HEIGHT: 75%
+}
+
+.Messages
+{
+    COLOR: red;
+    FONT-FAMILY: 'MS Sans Serif';
+    FONT-SIZE: 12pt
+}
+
+.page_message_attention
+{
+	FONT-SIZE: 10pt;
+	COLOR: #000000;
+	FONT-FAMILY: Arial, 'MS Sans Serif';
+	background-color: #CCCCCC;
+}
+.page_message_warning
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    BACKGROUND: #ffcccc;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, 'MS Sans Serif'
+}
+.page_message_normal
+{
+    FONT-SIZE: 12pt;
+    BACKGROUND: #ccffff;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, 'MS Sans Serif';
+    FONT-WEIGHT: bold
+}
+.ff_edit_dropDown
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: Arial, helvetica, 'MS Sans Serif';
+    BACKGROUND-COLOR: white
+}
+.ff_edit_center
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: Arial, helvetica, 'MS Sans Serif';
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: center;
+    border: 1px
+}
+.ff_edit_right
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: Arial, helvetica, 'MS Sans Serif';
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: right;
+  }
+.ff_edit_left
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: Arial, 'MS Sans Serif';
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: left
+}
+.ff_radio_left
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: Arial, 'MS Sans Serif';
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: left;
+    BORDER-COLOR: #336699;
+}
+.ff_radio_center
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: Arial, 'MS Sans Serif';
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: center;
+    BORDER-COLOR: #336699;
+    
+}
+.ff_radio_right
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: Arial, 'MS Sans Serif';
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: right;
+    BORDER-COLOR: #336699;
+}
+.ff_chkbox_left
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: Arial, helvetica, 'MS Sans Serif';
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: left;
+    BORDER-COLOR: #336699;
+}
+.ff_chkbox_right
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: Arial, 'MS Sans Serif';
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: right;
+    BORDER-COLOR: #336699;
+}
+.ff_chkbox_center
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    COLOR: black;
+    FONT-FAMILY: Arial, 'MS Sans Serif';
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: center;
+    BORDER-COLOR: #336699;
+}
+.ff_page_heading
+{
+    COLOR: #336699;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 12pt;
+    FONT-FAMILY: arial, helvetica, "MS Sans Serif";
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: left;
+    padding-left:5px;
+    
+}
+
+.ff_page_bigheading
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    COLOR: #336699;
+    FONT-FAMILY: arial, helvetica, "MS Sans Serif";
+    BACKGROUND-COLOR: white;
+    TEXT-ALIGN: left;
+}
+
+.ff_page_subTitle
+{
+	color: #336699;
+	FONT-WEIGHT: bolder;
+	FONT-SIZE: 10pt;
+	PADDING-BOTTOM: 5px;
+	VERTICAL-ALIGN: middle;
+	BORDER-BOTTOM: #336699 1px groove;
+	FONT-FAMILY: arial, helvetica, "MS Sans Serif"
+}
+.ff_page_Table
+{
+    WIDTH: 95%;
+}
+.divErrorText
+{
+	font-Family:Verdana,Arial,Helvetica;
+	color:red;
+	font-size:xx-small;
+	font-weight:bold;
+	font-style:normal; 
+}
+.eDeskMenu
+{
+	font-Family:Verdana,Arial,Helvetica;
+	font-size:x-small;
+	font-weight:bold;
+	font-style:normal; 
+	color:white;
+	border:none
+}
+.cellBGBlue
+{
+	background-color: #ffffff;
+}
+.textBox{
+	FONT-FAMILY: Arial, 'MS Sans Serif';
+	font-size:10pt;
+}
+
+.cellBGGrey
+{
+	background-color:#ffffff;
+}
+.DataGridFixedHeader1 { FONT-WEIGHT: bold; COLOR: black; POSITION: relative;  TOP: expression(this.offsetParent.scrollTop - 2); BACKGROUND-COLOR: #c0c0c0 }
+
+.StatusTab
+{
+    FONT-FAMILY: Arial, 'MS Sans Serif';
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 1.1em;
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #0579c2;  
+}
+
+
+A.links:link {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 10pt;
+	COLOR: #0000ff;
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+A.links:visited {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 10pt;
+	COLOR: #0000ff;
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+A.links:hover {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 10pt;
+	COLOR: #66cc00;
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+A.links:active {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 10pt;
+	COLOR: #66cc00;
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.leftnavhilite {
+        BACKGROUND-color: #e8f2fb;
+        WIDTH: auto;
+        CURSOR: default;
+        COLOR: #000000;
+        HEIGHT: auto;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10pt;
+        height:22px;
+}
+.TableHeaderForTransaction
+{
+    FONT-FAMILY: Arial, 'MS Sans Serif';
+	background-color:#336699;
+	color:white;
+	font-weight:bold;
+    FONT-SIZE: 8pt;
+}
+.TableDataForTransaction
+{
+    FONT-FAMILY: Arial, 'MS Sans Serif';
+	font-weight:normal;
+    FONT-SIZE: 8pt;
+}
+.Viewtable {
+border: 1px solid black;
+}
+.labelColor{
+	 /* BACKGROUND-color: #e4ebf3; */
+	 BACKGROUND-color: lightgray;
+}
+.blink_text {
+animation:1s blinker linear infinite;
+-webkit-animation:1s blinker linear infinite;
+-moz-animation:1s blinker linear infinite;
+
+ color: blue;
+}
+@-moz-keyframes blinker {  
+ 0% { opacity: 1.0; }
+ 50% { opacity: 0.0; }
+ 100% { opacity: 1.0; }
+ }
+
+@-webkit-keyframes blinker {  
+ 0% { opacity: 1.0; }
+ 50% { opacity: 0.0; }
+ 100% { opacity: 1.0; }
+ }
+
+@keyframes blinker {  
+ 0% { opacity: 1.0; }
+ 50% { opacity: 0.0; }
+ 100% { opacity: 1.0; }
+ }
+
+ 
